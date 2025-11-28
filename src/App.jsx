@@ -16,9 +16,7 @@ function App() {
       <header>
         <h1>Rad Movies</h1>
         <p>
-          Lorem ipsum w dolor sit amet consectetur adipisicing elit. Officiis
-          illo cumque sit dignissimos, consectetur nemo possimus accusamus
-          maxime excepturi molestiae nesciunt, laborum corrupti quis asperiores!
+          Find what's popular or upcoming at a theatre near you! Also check out the snacks you can get at the concession...Yum!
         </p>
       </header>
       <Navbar />
@@ -32,7 +30,7 @@ function App() {
       </main>
       <footer>
         <h3>Created by: Olivia Eagle Speaker</h3>
-        <p>data sourced from</p>
+        
         <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.svg" width={300} height={300}></img>
       </footer>
     </>

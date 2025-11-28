@@ -1,0 +1,15 @@
+.home-card{
+    width: 94%;
+    background-color: rgb(238, 0, 255);
+    padding: 10px 30px;
+    margin: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s;
+     justify-content: center;
+}
+
+.home-card:hover{
+    scale: 1.03;
+box-shadow: -1px 9px 11px 3px rgb(246, 255, 0);
+}

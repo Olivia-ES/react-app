@@ -10,7 +10,7 @@
 
 .candy-card:hover{
     scale: 1.05;
-box-shadow: -1px 9px 11px 3px rgb(246, 255, 0);;
+box-shadow: -1px 9px 11px 3px rgb(246, 255, 0);
 }
 
 .candy-details{
