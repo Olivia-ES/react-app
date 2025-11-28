@@ -1,19 +1,16 @@
 import React from "react";
+import './CandyCard.css';
 import "./CandyList";
 
-const CandyCard = () => {
+const CandyCard = ({ candy }) => {
   return (
-    <div>
-      <img
-        src="https://tse1.mm.bing.net/th/id/OIP.m-JDGZ9goI-Dgwr5owBJAgHaJ4?rs=1&pid=ImgDetMain&o=7&rm=3"
-        alt="Candy"
-      />
-      <h3>Brand</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quisquam
-        consequuntur repudiandae esse quibusdam sed!
-      </p>
-    </div>
+  <div className="candy-card">
+    <img src={candy.image} />
+    <div className="candy-details">
+    <h3>{candy.name}</h3>
+    <p>{candy.descrip.slice(0, 100)+"..."}</p></div>
+    
+  </div>
   );
 };
 

@@ -7,13 +7,14 @@ import Navbar from "./components/Navbar.jsx";
 import Popular from "./components/Popular.jsx";
 import Upcoming from "./components/Upcoming.jsx";
 
+
 function App() {
-  const name = "Your Mom";
+  
 
   return (
     <>
       <header>
-        <h1>Candy Listing For {name}</h1>
+        <h1>Rad Movies</h1>
         <p>
           Lorem ipsum w dolor sit amet consectetur adipisicing elit. Officiis
           illo cumque sit dignissimos, consectetur nemo possimus accusamus
@@ -29,6 +30,11 @@ function App() {
           <Route path="/candylist" element={<CandyList />} />
         </Routes>
       </main>
+      <footer>
+        <h3>Created by: Olivia Eagle Speaker</h3>
+        <p>data sourced from</p>
+        <img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_1-5bdc75aaebeb75dc7ae79426ddd9be3b2be1e342510f8202baf6bffa71d7f5c4.svg" width={300} height={300}></img>
+      </footer>
     </>
   );
 }

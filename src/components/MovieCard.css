@@ -1,0 +1,28 @@
+.movie-card{
+    width: 250px;
+    background-color:rgb(238, 0, 255);
+    padding: 10px 30px;
+    margin: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.movie-card:hover{
+    scale: 1.05;
+box-shadow: -1px 9px 11px 3px rgb(246, 255, 0);
+}
+
+.movie-details{
+    padding: 0 30px;
+}
+
+.movie-card img{
+    width: 100%;
+}
+
+.movie-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
